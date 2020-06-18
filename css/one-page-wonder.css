@@ -57,13 +57,14 @@ h6 {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  padding-top: calc(3rem + 7px);
+  padding-bottom: 3rem;
+  background: white;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain;
+  height: 50px
 }
 
 header.masthead .masthead-content {
@@ -83,41 +84,40 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #ff0400 0%, #ff6a00 100%);
 }
 
 header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
+  height: 45rem;
+  width: 45rem;
+  bottom: -22rem;
+  left: -22rem;
 }
 
 header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
+  height: 25rem;
+  width: 25rem;
+  top: -12rem;
+  right: -12rem;
 }
-
 header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
+  height: 10rem;
+  width: 10rem;
+  bottom: -5rem;
+  right: 2%;
 }
 
 header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
+  height: 15rem;
+  width: 15rem;
+  top: -2rem;
+  right: 17%;
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(2rem + 10px);
+    padding-bottom: 2rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
