@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Homepage - Vijeth Hebbar</title>
+  <title>Interesting writings</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,40 +61,40 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            
+            <img class="img-fluid" src="img/rewards_learning.gif" alt="">
+            Rewards learnt using realized trajectories of agent implementing optimal policy.
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h4>Conference Papers</h4>
-            <ol>
-            <li>Hebbar V.; Langbort C. A Stackelberg Signaling Game for Human-UAV Collaboration in a Search-and-Rescue Context. IFAC-PapersOnLine, Volume 53, Issue 5, 2020, doi.org/10.1016/j.ifacol.2021.04.186.</li>
-            </ol>
+            <h2> Inverse Reinforcement Learning over MDPs</h2>
+            <p>Traditional Reinforcement Learning seeks to learn the optimal strategy to complete a mission by performing actions and learning the rewards obtained from them. The rewards function usually define the mission itself, example, the mission of reaching a particular state is captured by setting the reward at all states as -1 and the reward at goal state being zero. The goal in Inverse Reinforcement Learning(IRL) on the other hand is to learn the full reward function that defines the mission, given only the optimal policy. Unsurprisingly, given an optimal policy, the reward function may not be unique. For instance, it is easy to see that the mission of reaching state can be defined by any positive scaling of the reward function we described above and the optimal policy would be the same. </p>
+
+            <p>So in our work we discuss a sufficient and necessary condition that the reward function must satisfy. The work primarily follows the work of Ng and Russel, 'Algorithms for inverse reinforcement learning.' Our work provides some additional mathematical insights, primarily through the use of a very simple example. Our work also considers an extention of IRL to solve the problem of apprenticeship learning where we present an example where a robot aims to learn the mission of moving between two points on a grid. The reward function learnt over iterations is highlighted in the GIF to the right. A detailed read can be found <a href='documents/AE598_Project_Report.pdf' target="_blank">here</a>. The codes corresponding the the apprenticeship learning example can be found as a Python Notebook (titled IRL_from_samples.ipynb) <a href="https://github.com/vijeth27/IRL_Examples/tree/master">here</a>. </p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section>
+<!--   <section>
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 order-lg-2">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4"></h2>
+            <p>More coming soon.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
           <div class="p-5">
             
           </div>
         </div>
-        <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
-            <h4>Journal Papers</h4>
-            <ol>
-            <li>Hebbar, V.; Langbort, C. A Model for Tacit Communication in Collaborative Human-UAV Search-and-Rescue. Entropy 2021, 23, 1027. https://doi.org/10.3390/e23081027</li>
-            </ol>
-          </div>
-        </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
